@@ -3,5 +3,6 @@ def square_array(array)
  array.each do |x|
   square_root = x.sqrt
   new.push(square_root)
+ end
   return new
 end
